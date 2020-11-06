@@ -1,6 +1,6 @@
 {
   "name": "ngx-instagram-zoom",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "Angular component that implements Instagram-like zoom for mobile. No dependencies.",
   "author": "https://github.com/AlexSapoznikov",
   "license": "MIT",
