@@ -12,6 +12,7 @@ npm install --save ngx-instagram-zoom
 
 ## Demo
 - Open this CodeSandbox example in mobile to try it:
+
 [![https://codesandbox.io/s/ngx-instagram-zoom-hgnlh](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ngx-instagram-zoom-hgnlh)
 
 ## Usage
