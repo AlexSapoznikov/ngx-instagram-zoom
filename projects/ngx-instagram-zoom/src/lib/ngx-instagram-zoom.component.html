@@ -1,0 +1,18 @@
+<div [class]={className}
+     [ngStyle]="{
+        'transform': getTransform(),
+        'z-index': (isMoving || !releaseAnimationDone) && zIndex,
+        'transition': getTransition(),
+        'position':  (isMoving || !releaseAnimationDone) ? 'relative' : undefined,
+        'transform-origin': getTransformOrigin()
+     }"
+     [style]="style"
+     [ngClass]="{'zooming': isMoving}"
+     (touchstart)="touchStart($event)"
+     (touchmove)="touchMove($event)"
+     (touchcancel)="touchCancel($event)"
+     (touchend)="touchEnd($event)"
+     (mouseup)="touchEnd($event)"
+>
+  <ng-content></ng-content>
+</div>

@@ -1,0 +1,43 @@
+{
+  "name": "ngx-instagram-zoom",
+  "version": "1.0.0",
+  "description": "Angular component that implements Instagram-like zoom for mobile. No dependencies.",
+  "author": "https://github.com/AlexSapoznikov",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^10.1.6",
+    "@angular/core": "^10.1.6"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "repository": "https://github.com/AlexSapoznikov/ngx-instagram-zoom",
+  "bugs": {
+    "url": "https://github.com/alexSapoznikov/ngx-instagram-zoom/issues"
+  },
+  "homepage": "https://github.com/alexSapoznikov/ngx-instagram-zoom#readme",
+  "keywords": [
+    "ngx-instagram-zoom",
+    "angular instagram zoom",
+    "ng instagram zoom",
+    "ng2 instagram zoom",
+    "ng-instagram-zoom",
+    "ng2-instagram-zoom",
+    "ngx-instagram-zoomable",
+    "ngx instagram zoom",
+    "ngx intagram zoomable",
+    "ngx intagram-like zoom",
+    "ngx zoom",
+    "ngx zoom component",
+    "ngx pinch zoom",
+    "ngx pinch",
+    "ngx pinch pan",
+    "ngx pan",
+    "pinch",
+    "pan",
+    "zoomable",
+    "zoom",
+    "ngx",
+    "angular"
+  ]
+}
