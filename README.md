@@ -12,11 +12,28 @@ npm install --save ngx-instagram-zoom
 
 ## Demo
 - Open this CodeSandbox example in mobile to try it:
-*Link Coming soon*
+[![https://codesandbox.io/s/ngx-instagram-zoom-hgnlh](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ngx-instagram-zoom-hgnlh)
 
 ## Usage
+- Import NgxInstagramZoomModule in your module file
+
+```
+import { NgxInstagramZoomModule } from 'ngx-instagram-zoom';
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [
+    ...
+    NgxInstagramZoomModule,
+    ...
+  ],
+  bootstrap: [AppComponent]
+})
+
+export class AppModule {}
+```
+
 - Wrap anything you want to make zoomable with `<Zoomable></Zoomable>` tags.
-- It can zoom in any content (not only images) that css transform can be applied to.
 
 ```tsx
 <Zoomable>
@@ -26,6 +43,8 @@ npm install --save ngx-instagram-zoom
     />
 </Zoomable>
 ```
+
+👉 It can zoom in any content (not only images) that css transform can be applied to.
 
 ## Docs
 
@@ -67,14 +86,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
